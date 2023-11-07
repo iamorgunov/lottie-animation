@@ -1,0 +1,44 @@
+{
+  "name": "lottie-animation",
+  "version": "1.1.0",
+  "description": "A React component for Lottie animations",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist/**/*"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/iamorgunov/lottie-animation.git"
+  },
+  "keywords": [
+    "lottie",
+    "lottie animation",
+    "lottie nextjs",
+    "lottie next",
+    "lottie react"
+  ],
+  "author": "Iaroslav Morgunov <iaroslav.morgunov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/iamorgunov/lottie-animation/issues"
+  },
+  "homepage": "https://github.com/iamorgunov/lottie-animation#readme",
+  "peerDependencies": {
+    "react": "^17.0.0 || ^18.0.0"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.0 || ^18.0.0",
+    "prop-types": "^15.8.1",
+    "typescript": "^4.9.5"
+  },
+  "scripts": {
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish": "npm run build"
+  },
+  "dependencies": {
+    "lottie-web": "^5.12.2",
+    "prop-types": "^15.8.1"
+  }
+}
