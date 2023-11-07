@@ -15,13 +15,13 @@
 Install the package via npm:
 
 ```
-npm install your-package-name
+npm install lottie-animation
 ```
 
 or with yarn:
 
 ```
-yarn add your-package-name
+yarn add lottie-animation
 ```
 
 Make sure you have `react` and `prop-types` installed in your project as they are peer dependencies of this component.
